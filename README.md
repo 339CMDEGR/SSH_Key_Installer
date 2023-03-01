@@ -15,13 +15,12 @@ bash <(curl -fsSL git.io/key.sh) [options...] <arg>
 ```
 
 ## Options
-
-* `-o` - Overwrite mode, this option is valid at the top
-* `-g` - Get the public key from GitHub, the arguments is the GitHub ID
-* `-u` - Get the public key from the URL, the arguments is the URL
-* `-f` - Get the public key from the local file, the arguments is the local file path
-* `-p` - Change SSH port, the arguments is port number
-* `-d` - Disable password login
+-o - 覆盖模式，必须写在最前面才会生效
+-g - 从 GitHub 获取公钥，参数为 GitHub 用户名
+-u - 从 URL 获取公钥，参数为 URL
+-f - 从本地文件获取公钥，参数为本地文件路径
+-p - 修改 SSH 端口，参数为端口号
+-d - 禁用密码登录
 
 
 从本地文件获取公钥
