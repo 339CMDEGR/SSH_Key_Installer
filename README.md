@@ -23,6 +23,15 @@ bash <(curl -fsSL git.io/key.sh) [options...] <arg>
 * `-p` - Change SSH port, the arguments is port number
 * `-d` - Disable password login
 
+
+从本地文件获取公钥
+通过 FTP 的方式把公钥传到 VPS 上，然后指定公钥路径：
+``` bash
+bash <(curl -fsSL git.io/key.sh) -f ~/key.pub
+# ~/key.pub 就是公钥的地址
+```
+
+
 ## Lisence
 
 [MIT](https://github.com/P3TERX/SSH_Key_Installer/blob/master/LICENSE) © P3TERX
